@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "name": "Probe",
+            "text": "Löschen, Bereich Ebnatweg Kastanienweg",
+            "responsible":["PH"],
+            "imageUrl": "",
+            "date": "2022-10-11T19:30:00.000Z"
+        },
+        {
+            "name": "Ausschussitzung",
+            "text": "",
+            "responsible": ["RR"],
+            "imageUrl": "",
+            "date": "2022-10-12T19:30:00.000Z"
+        },
+        {
+            "name": "Probe",
+            "text": "Löschen, Saugen, Bereich Rimpach",
+            "responsible":["HH", "PH"],
+            "imageUrl": "",
+            "date": "2022-10-18T19:30:00.000Z"
+        },
+        {
+            "name": "Probe",
+            "text": "Autobrand, Bereich Gewerbegebiet",
+            "responsible": ["CM", "MM"],
+            "imageUrl": "",
+            "date": "2022-10-25T19:30:00.000Z"
+        }
+    ]
+}

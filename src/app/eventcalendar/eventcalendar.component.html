@@ -1,0 +1,22 @@
+<div class="flex flex-row m-2">
+    <div class="basis-1/4">
+        <div class="mb-2 mr-2 p-2 border rounded-lg border-gray-200 {{event == currentEventData ? 'bg-orange-500': ''}}" *ngFor="let event of eventData.events">           
+                <dt class="text-xl font-medium text-gray-500">{{event.name}}</dt>
+                <dd class="mt-1 text-lg text-gray-900 sm:col-span-2 sm:mt-0">{{formatDate(event.date)}}</dd>
+        </div>
+    </div>
+
+    <div class="basis-3/4">
+        <div class="border rounded-lg border-gray-200 h-full">
+            <div class="m-2 p-2">
+                <dt class="text-5xl font-medium text-gray-500">{{currentEventData.name}}</dt>
+                <img src="{{currentEventData.imageUrl}}" *ngIf="currentEventData.imageUrl != ''">
+                <dd class="mt-1 text-3xl text-gray-900 sm:col-span-2 sm:mt-0">{{formatDate(currentEventData.date)}}</dd>
+                <dd>&nbsp;</dd>
+                <dd class="mt-1 text-3xl text-gray-900 sm:col-span-2 sm:mt-0">{{currentEventData.text}}</dd>
+                <dd class="mt-1 text-3xl text-gray-900 sm:col-span-2 sm:mt-0">{{currentEventData.responsible}}</dd>
+                
+            </div>
+        </div>
+    </div>
+</div>
